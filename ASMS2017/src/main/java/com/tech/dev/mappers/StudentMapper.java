@@ -5,7 +5,7 @@ import org.apache.ibatis.annotations.Options;
 import org.apache.ibatis.annotations.Select;
 
 import com.tech.dev.model.Student;
-
+// stuent mapper interface
 public interface StudentMapper {
 	@Insert("INSERT INTO student(userName, password, firstName,"
 			+ "lastName, dateOfBirth, emailAddress) VALUES"
