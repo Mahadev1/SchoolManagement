@@ -44,7 +44,7 @@ public class StudentController {
 		model.addAttribute("studentLogin", studentLogin);
 		return "login";
 	}
-	
+	// login started
 	@RequestMapping(value="/login", method=RequestMethod.POST)
 	public String login(@ModelAttribute("studentLogin") StudentLogin studentLogin) {
 		boolean found = studentService.getStudentByLogin(studentLogin.getUserName(), studentLogin.getPassword());
