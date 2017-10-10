@@ -51,8 +51,8 @@ body {
 					us. Or login to access your details, if you are already enrolled.</p>
 			</div>
 
-			<a class="btn btn-primary" href="signup.html">Signup » </a> <a
-				class="btn btn-primary" href="login.html">Login » </a> alert("hii");
+			<a class="btn btn-primary" href="signup.html">Signup Â» </a> <a
+				class="btn btn-primary" href="login.html">Login Â» </a> alert("hii");
 		</div>
 
 		<div></div>
@@ -64,6 +64,8 @@ body {
 	<script src="bootstrap/js/bootstrap.js">
 		
 	</script>
+	
+	<!-- add test comment -->
 
 </body>
 </html>
